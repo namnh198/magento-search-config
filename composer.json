@@ -1,0 +1,21 @@
+{
+  "name": "code-any-things/module-search-config",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-config": "101.2.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "CodeAnyThings\\SearchConfig\\": ""
+    }
+  }
+}
